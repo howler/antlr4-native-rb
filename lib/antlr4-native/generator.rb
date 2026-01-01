@@ -2,7 +2,7 @@ require 'fileutils'
 
 module Antlr4Native
   class Generator
-    ANTLR_VERSION = '4.10.1'.freeze
+    ANTLR_VERSION = '4.13.2'.freeze
 
     ANTLR_JAR = File.expand_path(
       File.join('..', '..', 'vendor', "antlr-#{ANTLR_VERSION}-complete.jar"), __dir__
